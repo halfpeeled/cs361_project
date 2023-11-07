@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap');
+
+:root{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: #fff;
+    font-family: coda-reg;
+    --cod-reg: 'Coda', sans-serif;
+    --cod-bold: 'Coda', sans-serif;
+    --pictured-blue: #1d81d8;
+    --error: #bf3939;
+}
+
+button{
+    color: #fff;
+    background-color: var(--pictured-blue);
+    cursor: pointer;
+}
+
+a{
+    color: var(--pictured-blue);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button{
+    border-radius: 12px;
+    border: none;
+    font-weight: 800;
+}
+
+button:hover{
+    background-color: #fff;
+    color: var(--pictured-blue);
+}
+
+a:hover{
+    color: #fff;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.navLogo{
+  text-align: left;
+}
+
+.navLogo img{
+    width: 64px;
+}
+
+.navMenu{
+    text-align: right;
+}
+
+.navMenu svg{
+    height: 32px;
+    stroke: var(--pictured-blue);
+    fill: var(--pictured-blue);
+    cursor: pointer;
+}
+
+.navMenu svg:hover{
+    stroke: #fff;
+    fill: #fff;
+}
+
+.landingLogoContainer{
+    width: 60%;
+    margin: 15% auto;
+    text-align: center;
+}
+
+.landingLogo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    width: 60%;
+    margin: 0px auto  40px auto;
+}
+
+.landingLogoText{
+    text-align: left;
+    font-size: 72px;
+    font-family: var(--cod-bold);
+    font-weight: 800;
+}
+
+.landingLogoImg{
+    text-align: right;
+}
+
+.landingLogoImg img{
+    width: 256px;
+}
+
+.landingLogin button{
+    width: 200px;
+    font-size: 48px;
+    font-weight: 800;
+    padding: 8px;
+}
+
+.feedback{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    background-color: var(--error);
+    border-radius: 8px;
+}
+
+.basicForm{
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.basicForm input{
+    width: 100%;
+    height: 24px;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 10px auto 20px auto;
+}
+
+.basicForm button{
+    font-size: 28px;
+    padding: 6px 12px;
+    margin: 20px;
+}
+
+.buttonContainer{
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+User:
+	- id # VVLV46-4DJ4FZ-KNR3XD
+	- username
+	- role
+	- active
+	- first
+	- last
+	- email
+	- password
+	- img
+	- created
+	- updated
+	- last_login
+	
+Familiy Member:
+	- id
+	- user
+	- family
+	- created
+	- updated
+
+Family Circle:
+	- id
+	- name
+	- created
+	- updated
+	- private
+	- img
+
+Album:
+	- id
+	- user
+	- name
+	- description
+	- img
+	- private
+	- creaetd
+	- updated
+
+Picture:
+	- id
+	- user
+	- album
+	- name
+	- src
+	- description
+	- private
+	- created
+	- updated
